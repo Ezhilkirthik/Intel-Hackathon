@@ -108,3 +108,4 @@ Still the model was not able to predict all the good URLs and hence club good UR
 - Use a wider, well-labelled dataset.
 - Further improvement can be done by adding features like checking malicious emails, pdfs and other kind executables and scripts etc.
 - Real time scanning of every file while downloading/transferring can be done to be used in daily life scenario to detect malicious files.
+- Right only websites with https connects are supported in the near future , http: and ssl connections can be added 
