@@ -1,6 +1,6 @@
 # Malware-Detection-using-Machine-Learning
 
-<a href="https://malware-detect-front.vercel.app">Final application</a>
+<a href="https://malware-detect-front.vercel.app" target="_blank">Final application</a>
 
 ## User Interface Design
 
@@ -109,5 +109,3 @@ Still the model was not able to predict all the good URLs and hence club good UR
 - Real time scanning of every file while downloading/transferring can be done to be used in daily life scenario to detect malicious files.
 
 ## Installation
-
-https://user-images.githubusercontent.com/34811605/148761184-cb6040d8-a8a1-4654-b592-f19b91c98c74.mp4
