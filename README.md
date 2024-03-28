@@ -1,6 +1,8 @@
 # Malware-Detection-using-Machine-Learning
 
-![final application]
+<a href="https://malware-detect-front.vercel.app">Final application</a>
+
+## User Interface Design
 
 Blog: https://kiiocity.wordpress.com/2022/05/08/anomaly-based-malware-detection-1/
 
@@ -52,14 +54,6 @@ As the whole project’s interface is terminal based and the only visuals we use
 ## Architecture Design
 
 ![image](https://user-images.githubusercontent.com/34811605/148760268-2f1a81da-ac45-402b-8135-21d2ac7fe2f1.png)
-
-## User Interface Design
-
-![image](https://user-images.githubusercontent.com/34811605/148760302-775ef62e-f0dd-4586-9c1a-64bed1234f7d.png)
-
-![image](https://user-images.githubusercontent.com/34811605/148760317-b7afa5e7-01b5-4656-8520-a95f37f544bd.png)
-
-![image](https://user-images.githubusercontent.com/34811605/148760334-257e2fd8-541b-4916-8e4e-9047e65c2f99.png)
 
 ## Technical Coding and code solutions
 
