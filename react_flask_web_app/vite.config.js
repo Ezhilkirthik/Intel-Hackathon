@@ -12,11 +12,8 @@ export default defineConfig({
     proxy: {
       "/api": {
         target: "https://malware-detection-flask-api-intel.onrender.com",
-        bypass: true,
-        autoRewrite: true,
-        forward: true,
         changeOrigin: true,
-        // rewrite: (path) => path.replace(/^\/api/, " "),
+        rewrite: (path) => path.replace(/^\/api/, " "),
       },
     },
     cors: false,
