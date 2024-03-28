@@ -1,6 +1,6 @@
 # Malware-Detection-using-Machine-Learning
 
-<a href="https://malware-detect-front.vercel.app" target="_blank">Final application</a>
+<a href="https://malware-detect-front.vercel.app" target="__blank">Final application</a>
 
 ## User Interface Design
 [ui_design.webm](https://github.com/antonrejoe/malware-detection-pe-file-and-url/assets/89238559/fb9c2edb-052e-42c6-87b5-11a038d082b7)
@@ -109,3 +109,22 @@ Still the model was not able to predict all the good URLs and hence club good UR
 - Further improvement can be done by adding features like checking malicious emails, pdfs and other kind executables and scripts etc.
 - Real time scanning of every file while downloading/transferring can be done to be used in daily life scenario to detect malicious files.
 - Right only websites with https connects are supported in the near future , http: and ssl connections can be added 
+
+## Running locally
+### Running the react app (vite)
+- First clone this repo
+  `git clone https://github.com/antonrejoe/malware-detection-pe-file-and-url`
+- Open terminal and run
+  `cd react_flask_web_app`
+- Run the below yarn commands <a href="https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable">yarn install guide</a>
+  `yarn init`
+  `yarn install`
+  `yarn run dev`
+### Running the flask server
+- Open terminal and run
+  `cd api`
+- Recommended create a python virtual environment <a href="https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/">virtual environment setup guide</a>
+  `flask run`
+- Navigate to the `react_flask_web_app/vite.config.js`
+- And change the value of `target` under "/api" , to the url of your local flask server
+  
