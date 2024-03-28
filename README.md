@@ -3,6 +3,7 @@
 <a href="https://malware-detect-front.vercel.app" target="_blank">Final application</a>
 
 ## User Interface Design
+[ui_design.webm](https://github.com/antonrejoe/malware-detection-pe-file-and-url/assets/89238559/fb9c2edb-052e-42c6-87b5-11a038d082b7)
 
 Blog: https://kiiocity.wordpress.com/2022/05/08/anomaly-based-malware-detection-1/
 
@@ -107,5 +108,3 @@ Still the model was not able to predict all the good URLs and hence club good UR
 - Use a wider, well-labelled dataset.
 - Further improvement can be done by adding features like checking malicious emails, pdfs and other kind executables and scripts etc.
 - Real time scanning of every file while downloading/transferring can be done to be used in daily life scenario to detect malicious files.
-
-## Installation
