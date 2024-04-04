@@ -117,7 +117,7 @@ Still the model was not able to predict all the good URLs and hence club good UR
 - First clone this repo
   `git clone https://github.com/antonrejoe/malware-detection-pe-file-and-url`
 - Open terminal and run
-  `cd react_flask_web_app`
+  `cd malware-detection-pe-file-and-url` `cd react_flask_web_app`
 - Run the below yarn commands <a href="https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable">yarn install guide</a>
   `yarn init`
   `yarn install`
