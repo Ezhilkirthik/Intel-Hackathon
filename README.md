@@ -78,7 +78,14 @@ Then we used Tf-idf machine learning text feature extraction approach from the s
 
 Still the model was not able to predict all the good URLs and hence club good URLs with bad URLs so we used the classical method of URL filtering with conjunction to the machine learning model i.e., Whitelist Filter. It is the list of websites that we know are good and at-least non-malicious and won’t harm our users. So, we allow these particular websites through our internet traffic, the opposite is called as blacklisting. It’s a very simple but efficient approach to segregate our network traffic, similarly we implemented that in our machine learning model.
 
-## Test and Validation
+## With ONEAPI tools
+
+### Confusion Matrix for Malicious PE header detector
+
+![image](https://github.com/antonrejoe/malware-detection-pe-file-and-url/assets/89238559/98111a17-d2df-4f2a-80f6-3c32588f0d16)
+
+
+## Test and Validation (Without ONEAPI tools)
 
 ### ROC Curve for URL Detector
 
